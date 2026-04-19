@@ -4,6 +4,8 @@ import Card from '../Card/Card'
 import mern from '../../assets/mern.png'
 import java from '../../assets/java.png'
 import dsa from '../../assets/dsa.png'
+import cpp from '../../assets/cpp.png'
+import python from '../../assets/python.png'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import{ ScrollTrigger } from 'gsap/all'
@@ -151,8 +153,11 @@ function About() {
       </div>
       <div className="rightabout">
         <Card title="MERN STACK WEB DEVELOPER" image={mern}/>
+         <Card title="DSA" image={dsa} />
+        <Card title="C++" image={cpp} />
          <Card title="JAVA" image={java} />
-          <Card title="DSA" image={dsa} />
+          <Card title="PYTHON" image={python} />
+         
       </div>
     </div>
   )

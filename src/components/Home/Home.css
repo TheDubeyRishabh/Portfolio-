@@ -23,7 +23,9 @@
     align-items: center;
 }
 .righthome img{
-    width: 60%;
+    width: 100%;
+    max-width: 380px;
+    height: auto;
     filter: drop-shadow(2px 2px 20px rgba(65, 239, 242, 0.927));
      
 }
