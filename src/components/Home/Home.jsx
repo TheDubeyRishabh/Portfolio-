@@ -1,6 +1,8 @@
 import React, { useRef } from 'react'
 import "./Home.css"
 import man from "../../assets/man.png"
+import manCircle from "../../assets/manCircle.png"
+import manModified from "../../assets/man-modified.png"
 import { TypeAnimation } from 'react-type-animation'
 import { useGSAP } from "@gsap/react"
 import gsap from 'gsap'
@@ -75,7 +77,9 @@ function Home() {
       </div>
 
       <div className="righthome">
-        <img src={man} alt="Profile" />
+        {/* <img src={man} alt="Profile" /> */}
+        {/* <img src={manCircle} alt="Profile" /> */}
+        <img src={manModified} alt="Profile" />
       </div>
 
     </div>
